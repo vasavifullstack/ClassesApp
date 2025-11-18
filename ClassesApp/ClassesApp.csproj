@@ -46,7 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="fieldBasics_static.cs" />
+    <Compile Include="2.class_non_static.cs" />
+    <Compile Include="1.fieldBasics_static.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

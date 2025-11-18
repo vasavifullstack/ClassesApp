@@ -10,17 +10,24 @@
 
     static DateTime applyResumeDateAndTime = DateTime.Now;
 
-
+    static void showMessage(string filename, string fileLocation) {
+        //string interpolation
+        Console.WriteLine($"file name {filename}and location {fileLocation}");
+    }
 
     static void Main() 
     
     { 
        
         string studentfilename=FieldBasics.filename;
-        Console.WriteLine(studentfilename);
+        //Console.WriteLine(studentfilename);
 
-        DateTime date = FieldBasics.applyResumeDateAndTime;
-        Console.WriteLine(date);
+        string studentlocation=FieldBasics.fileLocation;
+
+        //DateTime date = FieldBasics.applyResumeDateAndTime;
+        //Console.WriteLine(date);
+        FieldBasics.showMessage(studentfilename, studentlocation);
+
 
 
 
