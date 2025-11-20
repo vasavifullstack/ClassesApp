@@ -28,6 +28,4 @@ namespace Job_second
             public string task = "Maintenance code";
         }
 
-
-    }
 }
