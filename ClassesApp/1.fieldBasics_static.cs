@@ -10,9 +10,10 @@
 
     static DateTime applyResumeDateAndTime = DateTime.Now;
 
-    static void showMessage(string filename, string fileLocation) {
+    static void showMessage(string filename, string fileLocation,string fileSize,string filecreatedDate) {
         //string interpolation
-        Console.WriteLine($"file name {filename}and location {fileLocation}");
+    //static string filecreatedDate = "Mar-01-2025";
+        Console.WriteLine($"file name {filename}and location {fileLocation} and size {fileSize} and filecreated {filecreatedDate}");
     }
 
     static void Main() 
@@ -24,10 +25,13 @@
 
 
         string studentlocation=FieldBasics.fileLocation;
+        string studentfilesize = FieldBasics.fileSize;
+        string studentfilecreated = FieldBasics.filecreatedDate;
+
 
         //DateTime date = FieldBasics.applyResumeDateAndTime;
         //Console.WriteLine(date);
-        FieldBasics.showMessage(studentfilename, studentlocation);
+        FieldBasics.showMessage(studentfilename, studentlocation,studentfilesize,studentfilecreated);
 
 
 
