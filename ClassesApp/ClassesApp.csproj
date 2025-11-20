@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>non_FieldBasics</StartupObject>
+    <StartupObject>Constant_readonly</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,12 @@
   <ItemGroup>
     <Compile Include="2.class_non_static.cs" />
     <Compile Include="1.fieldBasics_static.cs" />
+    <Compile Include="constant_readonly.cs" />
+    <Compile Include="Namespace\All_files.cs" />
+    <Compile Include="Namespace\Job1.cs" />
+    <Compile Include="Namespace\Job2.cs" />
+    <Compile Include="Namespace\Job3.cs" />
+    <Compile Include="Namespace\Main_program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
