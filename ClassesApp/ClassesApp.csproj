@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ClassesApp.Static_Class</StartupObject>
+    <StartupObject>ClassesApp.Logger</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,6 +53,7 @@
     <Compile Include="6.Class_Array_Public.cs" />
     <Compile Include="7.Constructor.cs" />
     <Compile Include="8.static_class.cs" />
+    <Compile Include="9.logger.cs" />
     <Compile Include="Namespace\All_files.cs" />
     <Compile Include="Namespace\Job1.cs" />
     <Compile Include="Namespace\Job2.cs" />
