@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ClassesApp.Logger</StartupObject>
+    <StartupObject>Employ_details</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="11.Class_Inheritance2.cs" />
+    <Compile Include="12.Interface_inheritance.cs" />
+    <Compile Include="13.interface_inheritance_basic.cs" />
     <Compile Include="2.class_non_static.cs" />
     <Compile Include="1.fieldBasics_static.cs" />
     <Compile Include="4.properties2.cs" />
@@ -54,6 +57,7 @@
     <Compile Include="7.Constructor.cs" />
     <Compile Include="8.static_class.cs" />
     <Compile Include="9.logger.cs" />
+    <Compile Include="10.Class_inheritance.cs" />
     <Compile Include="Namespace\All_files.cs" />
     <Compile Include="Namespace\Job1.cs" />
     <Compile Include="Namespace\Job2.cs" />
