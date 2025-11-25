@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Addition</StartupObject>
+    <StartupObject>RuntimePolyContainer.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,6 +52,7 @@
     <Compile Include="14.Abstract.cs" />
     <Compile Include="15.compiler_polymorism.cs" />
     <Compile Include="16.compil_polymerism_example.cs" />
+    <Compile Include="17.Runtime_polymorism.cs" />
     <Compile Include="2.class_non_static.cs" />
     <Compile Include="1.fieldBasics_static.cs" />
     <Compile Include="4.properties2.cs" />
