@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Employ_details</StartupObject>
+    <StartupObject>ClassesApp.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,8 @@
     <Compile Include="11.Class_Inheritance2.cs" />
     <Compile Include="12.Interface_inheritance.cs" />
     <Compile Include="13.interface_inheritance_basic.cs" />
+    <Compile Include="14.Abstract.cs" />
+    <Compile Include="15.compiler_polymorism.cs" />
     <Compile Include="2.class_non_static.cs" />
     <Compile Include="1.fieldBasics_static.cs" />
     <Compile Include="4.properties2.cs" />
